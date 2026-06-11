@@ -21,7 +21,7 @@ spec:
         - name: repoURL
           value: https://github.com/AlJohri/kargo-workshop-kcd-nyc-2026
         - name: image
-          value: ghcr.io/AlJohri/kargo-workshop-kcd-nyc-2026
+          value: ghcr.io/aljohri/kargo-workshop-kcd-nyc-2026
       steps:
         - uses: git-clone
           config:
@@ -74,7 +74,7 @@ spec:
         - name: repoURL
           value: https://github.com/AlJohri/kargo-workshop-kcd-nyc-2026
         - name: image
-          value: ghcr.io/AlJohri/kargo-workshop-kcd-nyc-2026
+          value: ghcr.io/aljohri/kargo-workshop-kcd-nyc-2026
       steps:
         - uses: git-clone
           config:
