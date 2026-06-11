@@ -30,7 +30,7 @@ spec:
           valueFiles:
             - /env/{{.stage}}/k8s/values.yaml
       destination:
-        name: orbstack
+        name: my-cluster
         namespace: 'guestbook-{{.stage}}'
       syncPolicy:
         automated:
